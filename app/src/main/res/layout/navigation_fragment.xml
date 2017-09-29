@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/noAvaibleNotification_Image"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_above="@+id/noAvaibleNotification_Text"
+        android:layout_weight="0.42"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_info_sad" />
+
+    <TextView
+        android:id="@+id/noAvaibleNotification_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Schade! Es gibt noch keine Nachrichten"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="209dp" />
+</GridLayout>

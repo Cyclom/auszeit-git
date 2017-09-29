@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "615083029452",
+    "firebase_url": "https://auszeit-app.firebaseio.com",
+    "project_id": "auszeit-app",
+    "storage_bucket": "auszeit-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615083029452:android:9b1f6b48e327f8fe",
+        "android_client_info": {
+          "package_name": "de.auszeitesg.auszeitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615083029452-ev7882hb1qvs98c1fj81lj4c3nooarrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.auszeitesg.auszeitapp",
+            "certificate_hash": "072717ce9d100f5784a147e8a83ca0f49c726ca2"
+          }
+        },
+        {
+          "client_id": "615083029452-siure23q9332feqdorm06ie9464qvui0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.auszeitesg.auszeitapp",
+            "certificate_hash": "fcffae0778bb4083af73fd8c17dce10c6ddc6b64"
+          }
+        },
+        {
+          "client_id": "615083029452-oqe7vvroq0abp9qpfuahdvvf10pmkumg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkrHSOpYUwSDLIslam1SKVP6aW-kXlaLo"
+        },
+        {
+          "current_key": "AIzaSyCgoMU-G7r4Ew6xF6UBsse72W2mfrOUkJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615083029452-oqe7vvroq0abp9qpfuahdvvf10pmkumg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

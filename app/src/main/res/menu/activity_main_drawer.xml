@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Start" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_menu_orders"
+            android:title="Meine Vorbestellungen" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_push"
+            android:title="Benachrichtigungen" />
+        <item
+            android:id="@+id/nav_polls"
+            android:icon="@drawable/ic_menu_poll"
+            android:title="Umfragen" />
+    </group>
+
+    <item android:title="Einstellungen">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Globale Einstellungen" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Ausloggen" />
+
+            <item
+                android:id="@+id/nav_licenses"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Lizenzen" />
+        </menu>
+    </item>
+
+</menu>
