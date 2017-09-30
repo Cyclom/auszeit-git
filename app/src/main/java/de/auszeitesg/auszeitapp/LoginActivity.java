@@ -42,9 +42,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        Toast.makeText(this, "Bitte beachte dass diese App noch in einer fruehen Entwicklungsphase ist. Wir bitten daher Fehler zu tolerieren.", Toast.LENGTH_LONG).show();
-
+             Toast.makeText(this, "Bitte beachte dass diese App noch in einer fruehen Entwicklungsphase ist. Wir bitten daher Fehler zu tolerieren.", Toast.LENGTH_LONG).show();
 
         mGoogleBtn = (SignInButton) findViewById(R.id.googleBtn);
 
