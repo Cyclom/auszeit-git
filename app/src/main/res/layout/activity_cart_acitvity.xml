@@ -29,11 +29,11 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:gravity="end"
-                android:text="Preis: 2.60€"
-                android:textAlignment="textEnd"
-                android:textSize="24sp"
                 android:paddingRight="25dp"
-                android:paddingTop="10dp"/>
+                android:paddingTop="10dp"
+                android:text="Penis"
+                android:textAlignment="textEnd"
+                android:textSize="24sp" />
 
         </LinearLayout>
     </FrameLayout>

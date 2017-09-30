@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         }
     }
-    
+
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
@@ -112,6 +112,7 @@ public class LoginActivity extends AppCompatActivity {
                             startActivity(mainActivityIntent);
                         } else {
                             // (Firebase-)Sign In Failed
+                            // Tilli will never know
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             FirebaseCrash.logcat(Log.INFO, TAG, "User couldn't LogIn to Firebase");
                             Toast.makeText(LoginActivity.this, "LogIn mit Firebase-Servern fehlgeschlagen. Bitte gebe diesen Code an die Mitarbeiter weiter ID:2034",
